@@ -43,8 +43,9 @@
 #define MAX31865_FAULT_RTDINLOW 0x08
 #define MAX31865_FAULT_OVUV 0x04
 
-#define RTD_A 3.9083e-3
-#define RTD_B -5.775e-7
+#define RTD_A 3.9776e-3
+#define RTD_B -5.8785e-7
+#define RTD_B -4.183e-12
 
 #if (ARDUINO >= 100)
 #include "Arduino.h"
